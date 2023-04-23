@@ -8,6 +8,7 @@
   "dependencies": {
     "hexo": "workspace:^",
     "hexo-asset-link": "workspace:^",
+    "hexo-front-matter": "workspace:^",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
     "hexo-generator-index": "^3.0.0",

@@ -72,7 +72,13 @@ Note: Theme's style should support `.highlight.line.marked` (recommend to use th
 
 ### Gist
 
+without username
+
 {% gist 996818 %}
+
+with username
+
+{% gist imathis/996818 %}
 
 ### jsFiddle
 

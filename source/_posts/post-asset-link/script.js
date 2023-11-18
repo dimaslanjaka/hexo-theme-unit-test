@@ -1,1 +1,1 @@
-console.log("post asset link");
+console.log('post asset link');

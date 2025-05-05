@@ -3,18 +3,20 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: 'Hexo Theme Test'
+subtitle: 'Hexo Theme Test'
+description: 'Hexo Theme Test'
 keywords:
-author: John Doe
+author: Dimas Lanjaka
 language: en
-timezone: ''
+timezone: 'Asia/Jakarta'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
-permalink: :year/:month/:day/:title/
+url: http://www.webmanajemen.com
+root: /hexo-theme-unit-test/
+# permalink: :year/:month/:day/:title/
+permalink: ":filepath.html"
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -31,7 +33,7 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :year/:month/:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link:
@@ -101,4 +103,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repo: 'https://github.com/dimaslanjaka/hexo-theme-unit-test'
+  branch: ['gh-pages']

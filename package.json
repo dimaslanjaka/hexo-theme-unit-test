@@ -29,5 +29,8 @@
     "hexo-theme-landscape": "*",
     "hexo-util": "*",
     "warehouse": "*"
+  },
+  "devDependencies": {
+    "binary-collections": "^2.0.10"
   }
 }

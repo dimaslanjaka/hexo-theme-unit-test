@@ -8,7 +8,7 @@
     "clean": "hexo clean"
   },
   "hexo": {
-    "version": "7.3.0"
+    "version": "8.1.1"
   },
   "dependencies": {
     "hexo": "*",
@@ -17,15 +17,15 @@
     "hexo-deployer-git": "^4.0.0",
     "hexo-front-matter": "*",
     "hexo-generator-archive": "^2.0.0",
-    "hexo-generator-category": "^2.0.0",
+    "hexo-generator-category": "*",
     "hexo-generator-index": "^4.0.0",
     "hexo-generator-tag": "^2.0.0",
     "hexo-log": "*",
     "hexo-renderer-ejs": "^2.0.0",
-    "hexo-renderer-marked": "^7.0.0",
-    "hexo-renderer-stylus": "^3.0.0",
+    "hexo-renderer-marked": "^7.0.1",
+    "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "*",
-    "hexo-shortcodes": "^1.2.0",
+    "hexo-shortcodes": "^1.2.4",
     "hexo-theme-landscape": "*",
     "hexo-util": "*",
     "warehouse": "*"
